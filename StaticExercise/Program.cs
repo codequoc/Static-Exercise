@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double FTEMP = 98.6;
+            Console.WriteLine($"Fahrenheit: {FTEMP} = Celsius: {TempConverter.FahrenheitToCelsius(FTEMP)}");
+            double CTEMP = 25;
+            Console.WriteLine($"Celsius: {CTEMP} = Fahrenheit: {TempConverter.CelsiusToFahrenheit(CTEMP)}");
         }
     }
 }
